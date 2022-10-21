@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React, {useState} from "react"
+import Header from "./components/Header"
+import SearchBox from "./components/SearchBox"
+import ResultsContainer from "./components/ResultsContainer"
+
+
+const names = require("@rstacruz/startup-name-generator");
+
 
 function App() {
+  const [headerTitle] = useState("Name It!");
+
+  const [searchText, setSearchText] = useState("");
+
+  const [inputAnimation, setUserAnimation] = useState(true);
+
+  const [suggestedNames, setSuggestedNames] = useState([]);
+
+  const handleSearchInput = (value) => {
+    setSearchText(value);
+    setUserAnimation( value ? false : true)
+    setSuggestedNames(value ? names(value) : [] )
+  }
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      <Header 
+      title={headerTitle} 
+      inputExpanded={inputAnimation}
+      />
+      <SearchBox 
+      value={searchText} 
+      onHandleSearchInput={handleSearchInput}
+      />
+      <ResultsContainer suggestedNames={suggestedNames}/>
+    </>
+  )
 }
 
-export default App;
+export default App
