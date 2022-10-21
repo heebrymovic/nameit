@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/heebrymovic/nameit/static/css/main.6f239f7c.css",
-    "main.js": "/heebrymovic/nameit/static/js/main.fab9fa85.js",
-    "static/js/787.a9792d9a.chunk.js": "/heebrymovic/nameit/static/js/787.a9792d9a.chunk.js",
-    "index.html": "/heebrymovic/nameit/index.html",
-    "main.6f239f7c.css.map": "/heebrymovic/nameit/static/css/main.6f239f7c.css.map",
-    "main.fab9fa85.js.map": "/heebrymovic/nameit/static/js/main.fab9fa85.js.map",
-    "787.a9792d9a.chunk.js.map": "/heebrymovic/nameit/static/js/787.a9792d9a.chunk.js.map"
+    "main.css": "/nameit/static/css/main.6f239f7c.css",
+    "main.js": "/nameit/static/js/main.60b33f85.js",
+    "static/js/787.a9792d9a.chunk.js": "/nameit/static/js/787.a9792d9a.chunk.js",
+    "index.html": "/nameit/index.html",
+    "main.6f239f7c.css.map": "/nameit/static/css/main.6f239f7c.css.map",
+    "main.60b33f85.js.map": "/nameit/static/js/main.60b33f85.js.map",
+    "787.a9792d9a.chunk.js.map": "/nameit/static/js/787.a9792d9a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f239f7c.css",
-    "static/js/main.fab9fa85.js"
+    "static/js/main.60b33f85.js"
   ]
 }
