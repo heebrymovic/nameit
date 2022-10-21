@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/heebrymovic/nameit/static/css/main.6f239f7c.css",
+    "main.js": "/heebrymovic/nameit/static/js/main.ff3d3c12.js",
+    "static/js/787.a9792d9a.chunk.js": "/heebrymovic/nameit/static/js/787.a9792d9a.chunk.js",
+    "index.html": "/heebrymovic/nameit/index.html",
+    "main.6f239f7c.css.map": "/heebrymovic/nameit/static/css/main.6f239f7c.css.map",
+    "main.ff3d3c12.js.map": "/heebrymovic/nameit/static/js/main.ff3d3c12.js.map",
+    "787.a9792d9a.chunk.js.map": "/heebrymovic/nameit/static/js/787.a9792d9a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6f239f7c.css",
+    "static/js/main.ff3d3c12.js"
+  ]
+}
